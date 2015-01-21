@@ -3,6 +3,7 @@
 	<string name="action_wifi">Gestore WiFi</string>
 	<string name="action_networks">Reti</string>
 	<string name="action_refresh">Scansione</string>
+	<string name="action_setup">Configurazione</string>
 	<string name="nActionConnect">Connettere una volta</string>
 	<string name="nActionAdd">Connessione automatica</string>
 	<string name="nActionDisconnect">Disconnetti</string>
@@ -44,6 +45,7 @@
 	</string>
 	<string name="macTrusted">Permesso</string>
 	<string name="macBlocked">Bloccato</string>
+	<string name="macCheck">Verifica MAC</string>
 
 	<string name="macQuestion"><![CDATA[
 		Vuoi attivare il controllo del MAC?<br />
@@ -55,11 +57,10 @@
 	]]></string>
 	<string name="compatibilityModeActive">Modalità Legacy attivata. E' possibile modificare questo nelle impostazioni.</string>
 	
+	<string name="prefSetup">Mostra configurazione</string>
 	<string name="prefCatWifi">WiFi</string>
 	<string name="prefRefreshTime">Intervallo di aggiornamento</string>
 	<string name="prefRefreshTimeDesc">Con quale frequenza sarà controllato se una rete si trova nelle vicinanze. Più piccolo sarà l'\intervallo, più velocemente avverrà il collegamento, ma sarà usata più batteria!</string>
-	<string name="prefMacCheck">Controllo del MAC</string>
-	<string name="prefMacCheckDesc">Qui puoi disabilitare il controllo del MAC prima di un tentativo di connessione (non consigliato!). Per più informazioni su questa funzione per favore consulta la guida \"Reti\".</string>
 	<string name="prefAutoFuncs">Gestione automatica della WiFi</string>
 	<string name="prefAutoFuncsDesc">Accendere e spengere automaticamente la WiFi e connettersi alle reti conosciute. Necessario per risparmiare batteria! C'\è un widget per un accesso rapido a questa impostazione.</string>
 	<string name="prefLegacy">Auto-scan in modalità Legacy</string>
@@ -132,6 +133,31 @@
 			In \"Reti\" puoi cancellare le reti conosciute e l'\indirizzo MAC che si è aggiunto in un momento precedente.
 		]]></item>
 	</string-array>
+
+	<string name="setup1">
+		Grazie per aver scelto WiFi Better Battery!
+		\n\nQuesta è una breve introduzione alle funzioni di WiFi Better Battery.
+		\n\nSe sai già come usarlo, o semplicemente si vuole iniziare ad usarlo subito, è sufficiente utilizzare il pulsante Indietro. In seguito è possibile tornare qui dalle Impostazioni.
+		\n\nIn caso contrario, è possibile navigare attraverso le seguenti due pagine scorrendo orizzontalmente.
+	</string>
+	<string name="setup2">
+		Quando non si è connessi al alcuna rete, il WiFi del dispositivo è spento - anche se si accende manualmente.
+		\n\nSe talvolta non si vuole questo, è possibile utilizzare l\'impostazione \"Gestione WiFi automatica\" o il widget, per disattivarlo temporaneamente. 
+		\n\nPer connettersi a una rete automaticamente, è necessario salvarla all\'interno dell\'app. Non preoccupatevi per la password, è ancora gestita da Android e l'applicazione non può accedervi.
+		\n\Quando si seleziona una rete, utilizzare \"Connetti automaticamente\" se si desidera utilizzare la rete in qualsiasi momento si è sotto la sua copertura, altrimenti utilizzare \"Connettersi una volta\".
+		\n\
+		\n\nNella pagina successiva e ultima si può configurare una rete.
+	</string>
+	<string name="setup3">
+		Basta toccare su una rete e impostarla su \"Connettersi automaticamente\" per attivare la gestione automatica del WiFi.
+		\nÈ possibile farlo in questo momento o in un momento successivo. Premere Indietro una volta e hai fatto!
+		</string>
+	<string name="setup2Connected">
+		Sei già connessi a una rete. Cosa ti piacerebbe fare con questa?
+	</string>
+	<string name="setup2Auto">Resta connesso, e d\'ora in poi connettiti automaticamente a questa.</string>
+	<string name="setup2Stay">Non fare nulla, basta salvare la rete e rimanere connesso.</string>
+	<string name="setup2Disconnect">Disconnettere</string>
 
 	<string name="dialogConnect">Connettere</string>
 </resources>
