@@ -43,7 +43,7 @@
 		Per favore aiutaci %1$s a guadagnare popolarità raccomandando l'app ai tuoi amici o fai una delle seguenti operazioni:<br /><br />
 		<a href="https://www.facebook.com/%2$s">Dai un like e condividi la nostra pagina su Facebook!</a><br /><br />
 		<a href="market://details?id=%3$s">Per favore vota %1$s nel Google Play Store!</a><br /><br />
-		<a href="">Puoi aiutare anche con una donazione!</a>
+		<a href="">Puoi aiutare anche con una donazione!</a><br /><br />
 		<a href="https://github.com/CanisLupusXenonis/MNDStrings">O aiutare a tradurre l'\applicazione in un'altra lingua! !</a>
 	]]></string>
     <string-array name="help_spinner"/>
