@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 	<string name="app_name">WiFi Better Battery</string>
 	<string name="action_wifi">Gestore WiFi</string>
 	<string name="action_networks">Reti</string>
